@@ -1,21 +1,23 @@
-const body = document.querySelector("body");
-const button = document.getElementById("mybtn");
+/*const body = document.querySelector("body");
+let x;
 
-function random(number) {
-  return Math.floor(Math.random() * number);
-}
-
-function randomNumber(event) {
-  event.preventDefault();
+document.getElementById("mybtn").onclick = function () {
+  x = Math.floor(Math.random() * 6);
 
   const h1 = document.createElement("h1");
-  h1.textContent = `${random(65)}`;
+  h1.setAttribute("id", "randomNumber");
 
   body.appendChild(h1);
-  clearInputs();
-}
-function clearInputs() {
-  h1.value = "";
-}
+  h1.textContent = x;
 
-button.addEventListener("click", randomNumber);
+  document.getElementById;
+};
+*/
+
+let x;
+
+document.getElementById("mybtn").onclick = function () {
+  x = Math.floor(Math.random() * 65);
+
+  document.getElementById("xlabel").innerHTML = x;
+};

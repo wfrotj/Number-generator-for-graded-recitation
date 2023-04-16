@@ -11,7 +11,7 @@ body {
 .button {
   font-size: 45px;
   display: flex;
-  margin: 4em auto;
+  margin: 2em auto;
   cursor: pointer;
 }
 .button:active {
@@ -19,8 +19,10 @@ body {
   color: white;
   transition: 0.8s;
 }
-h1 {
+#xlabel {
+  font-size: 200px;
   display: flex;
-  font-size: 150px;
-  margin-top: -1em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
 }
